@@ -1,5 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 
+const MEDIA_BASE = import.meta.env.BASE_URL
+
 export default function WishWall({ wishes }) {
   const [floatingHearts, setFloatingHearts] = useState([])
   const timeoutsRef = useRef([])
@@ -58,8 +60,8 @@ export default function WishWall({ wishes }) {
       <div className="wish-wall">
         <video
           className="wish-video"
-          src="/media/wedding.mp4"
-          poster="/media/wedding-poster.jpg"
+          src={`${MEDIA_BASE}media/wedding.mp4`}
+          poster={`${MEDIA_BASE}media/wedding-poster.jpg`}
           autoPlay
           muted
           loop

@@ -9,7 +9,7 @@ import {
 
 const STUN_SERVERS = [{ urls: 'stun:stun.l.google.com:19302' }]
 const ACCESS_KEY = import.meta.env.VITE_DRINK_CAM_KEY || ''
-const VIEWER_OVERLAY_MEDIA = '/media/drink-cam-cover.png'
+const VIEWER_OVERLAY_MEDIA = `${import.meta.env.BASE_URL}media/drink-cam-cover.png`
 
 const getStatusLabel = (state) => {
   switch (state) {

@@ -1,8 +1,9 @@
 export default function Topbar({ navItems, activePath, isHandheld }) {
+  const brandMarkSrc = `${import.meta.env.BASE_URL}media/brand-mark.png`
   return (
     <header className="topbar">
       <a className="brand" href="#home" aria-label="Trang chu">
-        <img className="brand-mark" src="/media/brand-mark.png" alt="L & V" />
+        <img className="brand-mark" src={brandMarkSrc} alt="L & V" />
         <div>
           <p className="brand-title">Wedding Lounge</p>
           <p className="brand-subtitle">Không gian trải nghiệm cho tiệc cưới</p>
