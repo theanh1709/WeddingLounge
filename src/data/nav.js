@@ -8,4 +8,5 @@ export const navItems = [
   { path: 'loto-player', label: 'Lô tô khách' },
   { path: 'drink-cam/camera', label: 'Drink Cam' },
   { path: 'drink-cam/viewer', label: 'Drink Cam' },
+  { path: 'luckymoney', label: 'Lì xì' },
 ]

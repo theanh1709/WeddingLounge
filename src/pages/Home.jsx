@@ -14,6 +14,9 @@ export default function Home() {
           <a className="btn btn-outline" href="#loto-player">
             Lô tô khách
           </a>
+          <a className="btn btn-outline" href="#luckymoney">
+            Mừng tiệc cưới
+          </a>
           <a className="btn btn-outline" href="#drink-cam/camera">
             Drink Cam
           </a>

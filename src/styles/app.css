@@ -619,6 +619,71 @@
   color: #5f4036;
 }
 
+.money-grid {
+  align-items: stretch;
+}
+
+.money-card {
+  display: grid;
+  gap: 1rem;
+  justify-items: start;
+}
+
+.money-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+}
+
+.money-qr {
+  width: min(260px, 70vw);
+  aspect-ratio: 1;
+  border-radius: 18px;
+  border: 1px solid rgba(196, 152, 133, 0.35);
+  background: #fff;
+  object-fit: contain;
+  padding: 0.5rem;
+  justify-self: center;
+}
+
+.money-info {
+  display: grid;
+  gap: 0.6rem;
+  width: 100%;
+}
+
+.money-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.5rem 1rem;
+}
+
+.money-label {
+  font-weight: 600;
+  color: #6c4b41;
+}
+
+.money-value {
+  font-weight: 600;
+  color: #3a201a;
+}
+
+.money-value-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.money-copy {
+  padding: 0.35rem 0.9rem;
+  font-size: 0.85rem;
+}
+
 .wheel-layout {
   --wheel-size: min(560px, 92vw);
   --wheel-panel-size: clamp(320px, 26vw, 420px);

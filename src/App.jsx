@@ -17,6 +17,7 @@ import LotoHost from './pages/LotoHost'
 import LotoPlayer from './pages/LotoPlayer'
 import DrinkCam from './pages/DrinkCam'
 import NotFound from './pages/NotFound'
+import MoneyCelebrate from './pages/MoneyCelebrate'
 import './styles/app.css'
 
 function App() {
@@ -155,6 +156,9 @@ function App() {
           setDrinkItems={setDrinkItems}
         />
       )
+      break
+    case 'luckymoney':
+      content = <MoneyCelebrate />
       break
     default:
       content = <NotFound />
